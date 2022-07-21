@@ -34,7 +34,7 @@ body{
     margin-left: 27px;
     font-size: 21px;
     font-family: 'Outfit', sans-serif;
-    color:hsl(218, 44%, 22%) ;
+    color:hsl(218, 44%, 22%) ; 
 }
 .sub-letter{
     margin-top: 13px;
@@ -56,4 +56,65 @@ body{
     font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
     margin-left: 90px;
+}
+@media (max-width:375px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+     background-color: rgb(174, 211, 218); 
+    
+    }
+    /* The main overall container div */
+    .container{
+        background-color:  hsl(0, 0%, 100%); 
+        margin: auto;
+        width: 290px;
+        height: 435px;
+        border-radius: 20px;
+        border: 30px;
+    }
+    /* Image container */
+    .sub-container{
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .image{
+        margin-top: 15px;
+        border-radius: 10px;
+        
+    }
+    /* The letter heads div*/
+    .letter-container{
+        margin-top: 15px;
+    }
+    .first-letter-head{
+        margin-left: 27px;
+        font-size: 21px;
+        font-family: 'Outfit', sans-serif;
+        color:hsl(218, 44%, 22%) ; 
+        
+    }
+    .sub-letter{
+        margin-top: 13px;
+        font-size: 15px;
+        margin-left: 30px;
+        font-family: 'Outfit', sans-serif;
+        color: hsl(220, 15%, 55%);
+    }
+    .sub-two{
+        font-size: 15px;
+        margin-left: 25px;
+        font-family: 'Outfit', sans-serif;
+        color: hsl(220, 15%, 55%);
+        margin-left: 26px;
+    }
+    .sub-three{
+        font-size: 15px;
+        margin-left: 25px;
+        font-family: 'Outfit', sans-serif;
+        color: hsl(220, 15%, 55%);
+        margin-left: 90px;
+    }
 }
